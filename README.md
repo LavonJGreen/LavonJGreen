@@ -11,5 +11,8 @@ This is my perosnal website that I will consistently update.
 ## Website
 https://lavonjgreen.github.io/LavonJGreen/
 
+## Screenshot
+![Alt text](/images/Screenshot.png)
+
 ## Contribution 
 Made by Lavon J Green

@@ -67,39 +67,6 @@
         </section>
 
 
-<!--
-        <section id="projects-page"  class="projects">
-            <h1>Projects I have Worked on</h1>
-            <p>Thank you for taking the time to look at my projects</p>
-            <div class="row">
-                <div class="projects-showcase">
-                    <a href="http://lavonjgreen.github.io/run-buddy/"  rel="noopener noreferrer" target="_blank">
-                    <img src="images/runn buudy snapshot.png" alt="run buddy website snapshot" />
-                    <div class="layer">
-                        <h3>Run Buddy</h3>
-                    </div>
-                    </a>
-                </div>
-
-                <div class="projects-showcase">
-                    <a href="https://lavonjgreen.github.io/Challange1/" rel="noopener noreferrer" target="_blank">
-                        <img src="images/heriseaon refractoring.png" alt="heriseaon website snapshot" />
-                        <div class="layer">
-                            <h3>Horiseon</h3>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="projects-showcase">
-                    <img src="images/runn buudy snapshot.png" alt="run buddy website snapshot" />
-                    <div class="layer">
-                        <h3>Run Buddy</h3>
-                    </div>
-                </div>
-            </div>
-        </section>
-    -->
-
         <!--Contact Me-->
 
         <section id="contact-page" class="contact">
@@ -130,9 +97,9 @@
     
             <div class="contact-form">
                 <h3>Contact Me</h3>
-                <form>
+                <form action="form-handler.php" method="post">
                     <label for="contact-name">Name</label>
-                    <input type="text" id="contact-name" placeholder="Your Name"/>
+                    <input type="text" id="contact-name" name="name" placeholder="Your Name"/>
     
                     <label for="contact-message">Message</label>
                     <textarea id="contact-message" placeholder="(Project Inquary or Question)" name="contact-message" rows="4" cols="50"></textarea>
