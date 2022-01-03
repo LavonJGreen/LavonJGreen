@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>LavonGreen.com</title>
+        <link rel="stylesheet" href="C:\Users\Lavon J. Green\Desktop\projects\lavongreen.com\style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Dancing+Script:wght@400;500;600;700&family=Great+Vibes&family=Gwendolyn:wght@400;700&family=Kolker+Brush&family=Luxurious+Script&family=Mea+Culpa&family=Sacramento&family=Twinkle+Star&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    </head>
+
+    <body>
+        
+        <section class="sub-header">   
+            
+            <nav class="scroll">
+                <span>L .Green</span>
+                <div class="nav-links" id="navLinks">
+                    <i class="far fa-times-circle" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="index.html#contact-page">Contact Me</a></li>
+                    </ul>
+                </div>
+                <i class="fas fa-compass" onclick="showMenu()"></i>
+            </nav>
+        </section>
+
+
+
+
+        <section id="projects-page"  class="projects">
+            <h1>Projects I have Worked on</h1>
+            <p>Thank you for taking the time to look at my projects</p>
+            <div class="row">
+                <div class="projects-showcase">
+                    <a href="http://lavonjgreen.github.io/run-buddy/"  rel="noopener noreferrer" target="_blank">
+                    <img src="images/runn buudy snapshot.png" alt="run buddy website snapshot" />
+                    <div class="layer">
+                        <h3>Run Buddy</h3>
+                    </div>
+                    </a>
+                </div>
+
+                <div class="projects-showcase">
+                    <a href="https://lavonjgreen.github.io/Challange1/" rel="noopener noreferrer" target="_blank">
+                        <img src="images/heriseaon refractoring.png" alt="heriseaon website snapshot" />
+                        <div class="layer">
+                            <h3>Horiseon</h3>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="projects-showcase">
+                    <img src="images/runn buudy snapshot.png" alt="run buddy website snapshot" />
+                    <div class="layer">
+                        <h3>Run Buddy</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    
+        </section>
+    
+        <!--Footer-->
+        <footer>
+            <div>
+                ❤️ Made with love by Lavon Green. <br/>Lets build together
+            </div>
+        </footer>
+
+
+
+        <script>
+
+            const nav = document.querySelector('nav');
+
+            window.addEventListener('scroll', function() {
+                const offset = window.pageYOffset;
+
+                if(offset > 75) {
+                    nav.classList.add('scroll')
+                } else {
+                    nav.classList.remove('scroll')
+                }
+            });
+        </script>
+
+
+        <!--Javascript for menu icons-->
+        <script>
+            
+            var navLinks = document.getElementById("navLinks");
+            
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+
+    </body>
+</html>
