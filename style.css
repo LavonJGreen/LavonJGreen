@@ -316,8 +316,9 @@ nav .far, nav .fas{
 }
 
 .contact-info h3{
-    color: #fce138;
+    color: goldenrod;
     font-size: 32px;
+    font-family: 'Dancing Script', cursive;
 }
 .contact-info p, .contact-info address{
     margin: 20px 0;
